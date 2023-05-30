@@ -8,7 +8,7 @@ usethis::create_github_token()
 gitcreds::gitcreds_set()
 git_vaccinate()
 usethis::use_git()
-2use_github()
+use_github()
 git_default_branch_rename()
 git_default_branch_configure(name = "main")
 
@@ -19,8 +19,6 @@ base <- ggplot(penguins, aes(x = flipper_length_mm, fill = species))
 p_hist <- base + geom_histogram()
 p_dens <- base + geom_density(alpha  = 0.4) # set alpha to make transparent
 
-p_hist <- base + geom_density(alpha  = 0.4)
 
-p_hist
 
 
