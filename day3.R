@@ -19,6 +19,6 @@ base <- ggplot(penguins, aes(x = flipper_length_mm, fill = species))
 p_hist <- base + geom_histogram()
 p_dens <- base + geom_density(alpha  = 0.4) # set alpha to make transparent
 
-
+print("mergeconflict")
 
 
